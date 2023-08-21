@@ -1,5 +1,15 @@
-a, b, c, d = int(input()), int(input()), int(input()), int(input())
-if (a==c and b!=d) or (a!=c and b==d):
-    print('YES')
-else:
-    print('NO')
+a = int(input())
+b = int(input())
+c = input()
+if c!='+' or c!='-' or c!='/' or c!='*':
+    print('Неверная операция')
+elif b==0 and c=='/':
+    print('На ноль делить нельзя!')
+elif c=='+':
+    print(a+b)
+elif c=='-':
+    print(a-b)
+elif c=='*':
+    print(a*b)
+elif c=='/':
+    print(a/b)
