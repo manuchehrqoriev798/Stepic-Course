@@ -1,5 +1,5 @@
 x = int(input())
-if x>-1 and x<17:
-    print('Принадлежит')
-else: 
+if not -3>=x<=7:
     print('Не принадлежит')
+else: 
+    print('Принадлежит')
