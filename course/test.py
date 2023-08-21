@@ -1,15 +1,12 @@
-a = int(input())
-b = int(input())
-c = input()
-if c!='+' or c!='-' or c!='/' or c!='*':
-    print('Неверная операция')
-elif b==0 and c=='/':
-    print('На ноль делить нельзя!')
-elif c=='+':
-    print(a+b)
-elif c=='-':
-    print(a-b)
-elif c=='*':
-    print(a*b)
-elif c=='/':
-    print(a/b)
+a, b= input(), input()
+if (a!='красный' and a!='синий' and a!='желтый') or (b!='красный' and b!='синий' and b!='желтый'):
+    print('ошибка цвета')
+elif a==b:
+    print(a)
+elif (a=='красный' and b=='синий') or ((b=='красный' and a=='синий')):
+    print('фиолетовый')
+elif (a=='красный' and b=='желтый') or ((b=='красный' and a=='желтый')):
+    print('оранжевый')
+elif (a=='желтый' and b=='синий') or ((b=='желтый' and a=='синий')):
+    print('зеленый')
+
