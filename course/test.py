@@ -1,5 +1,5 @@
-x = int(input())
-if -30<x and x<=-2 or 7<x and x<=25:
-    print('Принадлежит') 
-else: 
-    print('Не принадлежит')
+a, b, c, d = int(input()), int(input()), int(input()), int(input())
+if (a==c and b!=d) or (a!=c and b==d):
+    print('YES')
+else:
+    print('NO')
