@@ -1,5 +1,4 @@
-string = input()
-if 'суббота' in string or 'воскресенье»' in string:
-    print('YES')
-else: 
-    print('NO')
+from math import *
+n, a = float(input()), float(input())
+result = (n*a**2)/(4*tan(pi/n))
+print(result)
