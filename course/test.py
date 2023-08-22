@@ -1,3 +1,5 @@
-p1, p2, q1, q2 = float(input()), float(input()), float(input()), float(input())
-m = abs(p1-q1)+abs(p2-q2)
-print(m)
+string = input()
+if 'суббота' in string or 'воскресенье»' in string:
+    print('YES')
+else: 
+    print('NO')
