@@ -1,9 +1,3 @@
 n, m = int(input()), int(input())
 if m<n:
-    for i in range(n, m, -1):
-        print(i)
-    print(i)
-else: 
-    for i in range(m, n):
-        print(i)
-
+    for i in range(n, m-1, -1)
