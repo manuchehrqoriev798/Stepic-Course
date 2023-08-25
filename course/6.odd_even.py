@@ -10,5 +10,3 @@ if yes==10:
     print('YES')
 elif yes<10:
     print('NO') 
-
-
