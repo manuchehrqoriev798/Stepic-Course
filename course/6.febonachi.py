@@ -5,4 +5,4 @@ for i in range(1, n+1):
     third = first
     first = third + second
     second = third
-    print(third)
+    print(third, end=' ')
