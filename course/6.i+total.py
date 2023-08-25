@@ -9,4 +9,3 @@ if total==0:
     print(0)
 else:
     print(total)
-
