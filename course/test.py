@@ -1,7 +1,19 @@
-counter = 1
+counter = 0
 n = int(input())
-while n > 0 and n < 6:
-    if n==5:
-        counter = counter + 1
-    n = int(input())
+
+while n >= 25:
+    counter += 1
+    n = n - 25
+
+while n >= 10:
+    counter += 1
+    n = n - 10
+
+while n >= 5:
+    counter += 1
+    n = n - 5
+
+while n >= 1:
+    counter= counter + 1
+    n = n - 1
 print(counter)

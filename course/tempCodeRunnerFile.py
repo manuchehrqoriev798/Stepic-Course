@@ -1,4 +1,15 @@
-m, n = int(input()), int(input())
-m_nechet = m%2+m-1
-for i in range(m_nechet, n-1, -2):
-    print(i)
+counter = 0
+n = int(input())
+while n >= 25:
+    counter += 1
+    n  = n -25
+while n >= 10:
+    counter += 1
+    n = n - 10
+while n >=5:
+    counter += 1
+    n = n - 5
+while n < 5:
+    counter += 1
+    n = n - 1
+print(counter)
