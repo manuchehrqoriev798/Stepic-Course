@@ -1,15 +1,16 @@
 n = int(input())
-last_digit = 0
-largest = float('-inf')
-smallest = float('inf')
+original_n = n
+original_last_digit = n % 10
+counter = 0
+sum_number = 0
 
-while n > 0:
+while n != 0:
     last_digit = n % 10
-    if last_digit > largest:
-        largest = last_digit
-    if last_digit < smallest:
-        smallest = last_digit
+    counter = counter + 1
+    sum_number = sum_number + last_digit
     n = n // 10
 
-print('Максимальная цифра равна', largest)
-print('Минимальная цифра равна', smallest)
+if sum_number / counter == original_last_digit and original_n // 10 ** (counter-1) == original_last_digit:
+    print('YES')
+else: 
+    print('NO')

@@ -6,7 +6,7 @@ while n != 0:
     if last_digit < original_last_digit:
         flag = False
     else: 
-        last_digit = original_last_digit
+        original_last_digit = last_digit
     n = n // 10
 if flag == True:
     print('YES')
