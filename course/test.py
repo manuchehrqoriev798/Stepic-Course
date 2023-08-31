@@ -1,14 +1,8 @@
-n = int(input())
-flag = True
-original_last_digit = n % 10
-while n != 0:
-    last_digit = n % 10
-    if last_digit < original_last_digit:
-        flag = False
-    else: 
-        last_digit = original_last_digit
-    n = n // 10
-if flag == True:
-    print('YES')
-else: 
-    print('NO')
+mult = 1
+for i in range(1, 11):
+   if i % 2 == 0:
+      continue
+   if i % 9 == 0:
+      break
+   mult *= i
+print(mult)
