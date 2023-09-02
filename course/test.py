@@ -1,9 +1,12 @@
-total = 0
-for i in range(7):
-    num = int(input())
-    if num % 2 == 0:
-        total += num
-if total > 0:
-    print(total)
+num = int(input())
+max_digit = -1
+while num != 0:
+    digit = num % 10
+    if digit % 3 == 0:
+        if digit > max_digit:
+            max_digit = digit
+    num = num // 10
+if max_digit == -1:
+    print('NO')
 else:
-    print(0)
+    print(max_digit)
