@@ -1,17 +1,15 @@
-num = int(input())
-start = ''
-reminder_num = 0
-reminder_str = 0
-num_str = str(num)
-for i in range(0, num + 1):
-    reminder_num = num_str[i] // 2
-    reminder_str = str(reminder_num)
-    start = start + reminder_str
-print(start)
+# word = input()
+# half_word = len(word) // 2
+# if len(word) % 2 ==0 and half_word >= 2:
+#     print(word[-half_word:] + word[:half_word])
+# if len(word) % 2 != 0 and half_word >= 2:
+#     print(word[-half_word:] + word[:half_word+1] )
+# if len(word) == 1:
+#     print(word[0])
+# if len(word) == 2:
+#     print(word[1] + word[0])
 
-#     if text[i] in 'ауоыиэяюёеАУОЫИЭЯЮЁЕ':
-#         counter_a += 1
-#     if text[i] in 'бвгджзйклмнпрстфхцчшщБВГДЖЗЙКЛМНПРСТФХЦЧШЩ':
-#         counter_b += 1
-# print('Количество гласных букв равно', counter_a)
-# print('Количество согласных букв равно', counter_b)
+from math import *
+s = input()
+i = ceil(len(s)/2)
+print(s[i:]+s[:i])
