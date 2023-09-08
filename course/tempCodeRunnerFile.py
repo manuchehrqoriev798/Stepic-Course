@@ -1,14 +1,4 @@
-max_minus_num = 0
-# sum_minus_num = 0
-
-# for i in range(10):
-#     num = int(input())
-#     if num < 0:
-#         sum_minus_num += num
-#         if num < max_minus_num:
-#             max_minus_num = num
-
-# if sum_minus_num == 0:
-#     print("NO")
-# else:
-#     print(sum_minus_num, max_minus_num, sep='\n')
+s = "In 2010, someone paid 10k Bitcoin for two pizzas."
+# for i in range(0, len(s)):
+#     if s[i] == ',':
+#         print(s[i])
