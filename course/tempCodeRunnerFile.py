@@ -1,13 +1,6 @@
-word = input()
-print(word[2])
-print(word[-2])
-print(word[:-2])
-print(word[:3])
-print(word[1::2])
-print(word[2::2])
-print(word[::-1])
-new_word = word[::-1]
-print(new_word[0::2])
-
-
-
+name = input()
+# counter = 0
+# for char in name:
+#     if char in 'abcdefghijklmnopqrstuvwxyz':
+#         counter += 1
+# print(counter)
