@@ -1,12 +1,9 @@
-k = int(input())
 text = input()
+counter_1 = 0
+counter_2 = 0
 for i in range(0, len(text)):
-    code = ord(text[i])
-    code = code - k
-    if code < 97:
-        while code < 97:
-            code = code + 26
-    if code > 123:
-        while code > 123:
-            code = code - 26
-    print(chr(code), end='')
+    counting = text.count(text[i])
+    if counting > counter_1:
+        counting == counter_1
+        counter_2 = text[i]
+print(counter_2)
