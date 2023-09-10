@@ -1,2 +1,5 @@
-s = '     I learn Python language               '
-print(s.strip())
+text = input()
+if text.endswith('.com') or text.endswith('.ru'):
+    print('YES')
+else:
+    print('NO')
