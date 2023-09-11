@@ -1,9 +1,3 @@
-text = input()
-counter_1 = 0
-counter_2 = 0
-for i in range(0, len(text)):
-    counting = text.count(text[i])
-    if counting >= counter_1:
-        counter_1 = counting
-        counter_2 = i
-print(text[counter_2])
+numbers = [12.5, 3.1415, 2.718, 9.8, 1.414, 1.1618, 1.324]
+
+print(max(numbers) + min(numbers))
