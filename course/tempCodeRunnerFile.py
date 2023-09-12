@@ -1,3 +1,5 @@
-num = int(input())
-# list_numbers = list(range(1, num+1, 1))
-# print(list_numbers)
+rainbow = ['Red', 'Orange', 'Yellow', 'Green', 'Blue', 'Indigo', 'Violet']
+
+reinbow[3] = 'Зеленый'
+reinbow[-1] = 'Фиолетовый'
+print(rainbow)
