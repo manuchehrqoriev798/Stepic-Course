@@ -1,6 +1,11 @@
-or i in range(1, 50):
-#     for ii in range(1, 50):
-#         for j in range(1, 50):
-#             for jj in range(1, 50):
-#                 if i**3 + ii**3 == j**3 + jj**3 and i != j and i != jj and ii != j and ii != jj and i != ii and j != jj:
-#                     possible_answer = i**3 + 
+text = input()
+counter = 0
+for i in range(0, len(text)):
+    if text[i]=='f':
+        counter += 1
+    if counter == 2:
+        print(i)
+if counter==1:
+    print('-1')
+elif counter == 0:
+    print('-2')
